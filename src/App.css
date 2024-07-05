@@ -1,0 +1,59 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.movie-list, .movie-detail {
+  padding: 20px;
+  margin: auto;
+  width: 80%;
+  max-width: 600px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.movie-list h1, .movie-detail h1 {
+  color: #333;
+}
+
+.movie-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.movie-list li {
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.movie-list h2 {
+  margin: 0;
+  color: #007bff;
+}
+
+.movie-detail p {
+  margin: 20px 0;
+  color: #555;
+}
+
+.movie-detail .trailer {
+  margin: 20px 0;
+}
+
+.movie-detail a {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #007bff;
+  border: 1px solid #007bff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.movie-detail a:hover {
+  background-color: #007bff;
+  color: #fff;
+}
